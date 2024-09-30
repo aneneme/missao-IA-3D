@@ -6,15 +6,17 @@ export const perguntas = [
                 texto: "Baleia ",
                 afirmacao: [
                     "Se essa foi a opção escolhida, está correta",
-                    "afirmacao 2"
-                    ]
+                    "parabens voce sabe sobre a vida marinha"
+                    ],
+                    proxima 1,
             },
             {
                 texto: "Cavalo marinho",
                 afirmacao: [
-                    "Se essa foi a opção, está correta",
-                    "afirmacao 2"
-                    ]
+                    "Se essa foi a opção, está incorreta",
+                    "voce precisa estudar mais"
+                    ],
+                    proxima 2
             }           
             
         ]
@@ -23,18 +25,20 @@ export const perguntas = [
         enunciado: "Qual o unico mamifero que voa?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 2",
+                texto:"Morcego",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "correto",
+                    "parabens esse é o unico mamifero que voa"
+                    ],
+                    proxima 3,
             },
             {
-                texto: "Alternativa 2 da pergunta 2",
+                texto: "Avestruz",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "incorreto",
+                    "voce sabe o que e um avestruz?"
+                    ], 
+                    proxima 4,
             }
         ]
     },
@@ -42,18 +46,20 @@ export const perguntas = [
         enunciado: "Qual o mamifero que bota ovo?",
         alternativas: [
             {
-                texto:"Alternativa 1 da pergunta 3",
+                texto:"ornitorrinco",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "esta correto",
+                    "os ornitorrincos botam ovos"
+                    ],
+                    proxima 5,
             },
             {
-                texto:"Alternativa 2 da pergunta 3",
+                texto:"canguru",
                 afirmacao: [
-                    "afirmacao 1",
-                    "afirmacao 2"
-                    ]
+                    "errado",
+                    "canguru nao bota ovo, estude mais sobre"
+                    ],
+                    proxima 6,
             }
             
         ]
