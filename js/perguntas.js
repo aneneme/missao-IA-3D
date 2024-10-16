@@ -95,7 +95,6 @@ export const perguntas = [
                         "Se você escolheu essa opçâo, está correto.",
                         "Felizmente essa é a resposta certa."
                         ],
-                    proxima: 5,
                 },
                 {
                     texto: "Lince",
@@ -103,7 +102,6 @@ export const perguntas = [
                         "Se essa foi a opçâo escolhida, está incorreta.",
                         "Infelizmente você não escolheu a resposta correta."
                         ],
-                    proxima: 5,
                 },
                
             ]
